@@ -1,0 +1,34 @@
+/* pages/index/translate.wxss */
+
+.traninput{
+  border-top: .5px solid #EDEDED;
+  border-bottom: .5px solid #EDEDED;
+  height: 50px;
+  text-align: center;
+  margin-top: 50px;
+}
+.traview{
+  text-align: center;
+  padding-top: 50px;
+}
+.nav{
+  margin-top: 50px;
+}
+.tranbtn{
+  width:150px;
+  margin-top: 50px;
+}
+
+.result{
+  margin-top: 80px;
+}
+
+.back{
+  width:50px;
+  height: 50px;
+}
+.picker{
+  margin-top:20px;
+  background: #FFFAFA;
+  padding: 10px;
+}

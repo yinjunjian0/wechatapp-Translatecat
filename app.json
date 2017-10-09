@@ -1,0 +1,32 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/translate/translate"  
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "翻译Cat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#626567",
+    "selectedColor": "#2A8CE5",
+    "backgroundColor": "#FBFBFB",
+    "borderStyle": "white",
+    "position":"top",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "开始",
+      "iconPath": "image/burger.png",
+      "selectedIconPath": "image/burger_focus.png"
+    },{
+      "pagePath": "pages/translate/translate",
+      "text": "翻译",
+      "iconPath": "image/discovery.png",
+      "selectedIconPath": "image/discovery_focus.png"
+    }]
+  }
+  
+}

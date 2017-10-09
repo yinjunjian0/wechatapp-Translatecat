@@ -1,0 +1,18 @@
+<!--index.wxml-->
+
+<view class='traview'>
+  <block>
+    <text class='nav'>{{tips}}</text>
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <!-- 选择语言 -->
+    <view class="picker" >
+      选择翻译语言：{{array[index]}}
+    </view>
+    </picker>
+    <input type='text' class='traninput' bindblur='getcontent'></input>
+    <button class='tranbtn' open-type="getUserInfo" bindgetuserinfo="translate">开始翻译</button>
+    <view class='result'>
+     <text wx:if="tranalready">{{tranresult}}</text>
+    </view>
+  </block>
+</view>
